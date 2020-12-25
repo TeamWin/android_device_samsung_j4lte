@@ -93,10 +93,7 @@ TARGET_RECOVERY_FSTAB := device/samsung/j4lte/recovery.fstab
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 
-# System as root
-BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
-BOARD_SUPPRESS_SECURE_ERASE := true
-# AB_OTA_UPDATER := false
+# Model Detection
 TARGET_OTA_ASSERT_DEVICE := j4lte,j4ltejx,j4lteub
 
 # Adjustment
