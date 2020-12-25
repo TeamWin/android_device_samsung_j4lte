@@ -1,20 +1,2 @@
 ro.arch=exynos7570
 ro.chipname=exynos7570
-ro.kernel.qemu=0
-ro.kernel.qemu.gles=1
-persist.demo.hdmirotationlock=false
-#Enable DSDS
-#Enable S.LSI USB settings
-dev.usbsetting.embedded=on
-#RILD debug level setting
-ro.debug_level=0x494d
-# Specify a vendor RIL and a device node
-rild.libpath=/system/lib64/libsec-ril.so
-rild.libargs=-d /dev/umts_ipc0
-# read DS/SS property
-import /efs/factory.prop
-# Set csc support in OMX
-# If not set or set to 0, OMX will only use BT.601 colorspace.
-# Set to 1 if and only if BOARD_USES_EXYNOS_DATASPACE_FEATURE := true in BoardConfig.mk
-# ro.vendor.cscsupported=1
-sys.config.phone_start_early=true 
