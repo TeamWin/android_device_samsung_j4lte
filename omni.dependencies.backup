@@ -1,8 +1,0 @@
-[
-  {
-    "remote":"github",
-    "repository": "TwrpBuilder/android_kernel_samsung_j4lte",
-    "target_path": "kernel/samsung/j4ltejx",
-    "revision":"master"
-  }
-] 
