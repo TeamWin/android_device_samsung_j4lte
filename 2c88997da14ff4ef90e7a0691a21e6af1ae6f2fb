@@ -101,6 +101,23 @@
       "message": "It seems you have multiple profiles under this name/email. Can you try now?",
       "revId": "2c88997da14ff4ef90e7a0691a21e6af1ae6f2fb",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "484438f7_16433a3a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 640
+      },
+      "writtenOn": "2021-02-21T23:14:44Z",
+      "side": 1,
+      "message": "same,should I add my name to reviewer? or CC? Anyway it should +2 so I can merge right?",
+      "revId": "2c88997da14ff4ef90e7a0691a21e6af1ae6f2fb",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
