@@ -118,6 +118,24 @@
       "message": "same,should I add my name to reviewer? or CC? Anyway it should +2 so I can merge right?",
       "revId": "2c88997da14ff4ef90e7a0691a21e6af1ae6f2fb",
       "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "030308ae_0e16b443",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 640
+      },
+      "writtenOn": "2021-02-22T00:10:11Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "15f92484_726182a6",
+      "revId": "2c88997da14ff4ef90e7a0691a21e6af1ae6f2fb",
+      "serverId": "9c1c7d72-6534-4d44-b0ea-39f63e804833"
     }
   ]
 }
