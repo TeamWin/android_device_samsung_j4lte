@@ -1,7 +1,8 @@
 /system		ext4	/dev/block/platform/13540000.dwmmc0/by-name/SYSTEM
 /system_image	emmc	/dev/block/platform/13540000.dwmmc0/by-name/SYSTEM
+/data		ext4	/dev/block/platform/13540000.dwmmc0/by-name/USERDATA	flags=length=-20480,encryptable=footer
 /vendor		ext4	/dev/block/platform/13540000.dwmmc0/by-name/VENDOR
-/vendor_image	emmc	/dev/block/platform/13540000.dwmmc0/by-name/VENDOR/data		ext4	/dev/block/platform/13540000.dwmmc0/by-name/USERDATA	flags=length=-20480,encryptable=footer
+/vendor_image	emmc	/dev/block/platform/13540000.dwmmc0/by-name/VENDOR
 /cache		ext4	/dev/block/platform/13540000.dwmmc0/by-name/CACHE
 
 /boot		emmc	/dev/block/platform/13540000.dwmmc0/by-name/BOOT	flags=backup=1;display="Kernel"
@@ -9,7 +10,8 @@
 
 /efs		ext4	/dev/block/platform/13540000.dwmmc0/by-name/EFS		flags=backup=1;display="EFS
 /misc		emmc	/dev/block/platform/13540000.dwmmc0/by-name/MISC	flags=backup=0;display="Misc"
-/radio emmc /dev/block/platform/13540000.dwmmc0/by-name/RADIO flags=backup=1;display="Baseband"
+/modem		emmc	/dev/block/platform/13540000.dwmmc0/by-name/RADIO	flags=backup=1;display="Baseband"
+/odm		ext4	/dev/block/platform/13540000.dwmmc0/by-name/ODM
 
 /external_sd	auto	/dev/block/mmcblk1p1 /dev/block/mmcblk1			flags=display="Micro SDcard";storage;wipeingui;removable
 /usb-otg	auto	/dev/block/sda1  /dev/block/sda				flags=display="USB-OTG";storage;wipeingui;removable
